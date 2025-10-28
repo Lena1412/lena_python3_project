@@ -1,0 +1,14 @@
+[project]
+name = "py3umk"
+version = "0.0.1"
+description = "My awsome Python project."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["h5py"]
+authors = [
+    {name = "Iulia Emilia Brumboiu", email = "iubr@umk.pl"},
+]
+
+[build-system]
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"
